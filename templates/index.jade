@@ -1,29 +1,31 @@
 html
 	head
-		link(href=".\stylesheets\main.css", rel="stylesheet")
+		link(href="./stylesheets/main.css", rel="stylesheet")
 		link(href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css", rel="stylesheet")
-	body
-		div.container-fluid
-			div.navbar.navbar-default
+	body#body
+		div#container.container-fluid
+			div#navbar.navbar.navbar-default.navbar-fixed-top.navbar-inverse
 				div.navbar-header
 					button(type='button', class="navbar-toggle collapsed" data-toggle="collapse", data-target="#bs-examplenavbar-collapse-1", aria-expanded="false")
 						span.sr-only Toggle Navigation
 						span.icon-bar
 						span.icon-bar
 						span.icon-bar
-					a(class="navbar-brand", href="#") Kosan Nicholas
+					a(class="navbar-brand",id="white-text", href="#") Kosan Nicholas
 					
 				div#bs-example-navbar-collapse-1.collapse.navbar-collapse
-					ul.nav.navbar-nav.navbar-right
+					ul#right-nav.nav.navbar-nav.navbar-right
 						li
-							a(href="#") Home
+							a(href="#home-section", id="white-text") Home
 						li
-							a(href="#") About
+							a(href="#about-section", id="white-text") About
 						li
-							a(href="#") Portfolio
+							a(href="#portfolio-section", id="white-text") Portfolio
 						li
-							a(href="#") Contact
+							a(href="#contact-section", id="white-text") Contact
 
 			div.main
+				div#home-section.content
+					a(name="home-section")
 				
 			div.footer
