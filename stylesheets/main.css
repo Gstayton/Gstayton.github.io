@@ -1,9 +1,23 @@
 #body {
   background-color: #000;
 }
-#home-section {
+#home-section,
+#about-section,
+#contact-section,
+#portfolio-section {
   height: 1000px;
+}
+#home-section {
   background-color: #f00;
+}
+#about-section {
+  background-color: #008000;
+}
+#contact-section {
+  background-color: #00f;
+}
+#portfolio-section {
+  background-color: #ff0;
 }
 #container {
   margin-top: 50px;
