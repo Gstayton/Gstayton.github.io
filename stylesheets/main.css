@@ -24,13 +24,6 @@
   padding-left: 0;
   padding-right: 0;
 }
-#navbar {
-  background-color: rgba(130,130,130,0.5);
-}
-#white-text {
-  color: #fff;
-  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-}
 #right-nav {
   margin-right: 50px;
 }
