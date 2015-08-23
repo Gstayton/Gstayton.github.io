@@ -5,7 +5,7 @@
 #about-section,
 #contact-section,
 #portfolio-section {
-  height: 1000px;
+  height: 750px;
 }
 #home-section {
   background-color: #f00;
@@ -24,4 +24,13 @@
 }
 #right-nav {
   margin-right: 50px;
+}
+#main-info {
+  margin-top: 10%;
+}
+#contact-bar {
+  margin-top: 5%;
+}
+#business-title {
+  font-family: monospace;
 }
